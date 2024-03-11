@@ -13,7 +13,7 @@ createApp({
 
   methods: {
     increment(){
-      
+      this.count++
     }
   }
 
