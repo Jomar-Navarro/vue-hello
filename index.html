@@ -11,14 +11,18 @@
 <body>
   
   <div id="app">
-    <div class="container my-5 text-center w-25 d-flex flex-column justify-content-center">
+    <div class="container my-5 text-center w-25 bg-white p-3 rounded-4 d-flex flex-column">
 
-      <input type="text" class="form-control border-1 border-black" v-model="message">
-      <h1>{{ message }}</h1>
-      <button @click="reverse" class="btn btn-outline-info">Reverse the message</button>
+      <div>
+        <input type="text" class="form-control border-1 border-black" v-model="message">
+        <h1>{{ message }}</h1>
+        <button @click="reverse" class="btn btn-outline-info">Reverse the message</button>
+      </div>
 
-      <h2>{{ this.count }}</h2>
-      <button @click="increment" class="btn btn-outline-secondary">Counter={{ this.count }}</button>
+      <div>
+        <h2>{{ this.count }}</h2>
+        <button @click="increment" class="btn btn-outline-dark w-25 justify-content-center">Counter</button>
+      </div>
 
     </div>
   </div>
