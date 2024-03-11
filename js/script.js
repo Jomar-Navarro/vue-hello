@@ -6,7 +6,14 @@ createApp({
 
   data(){
     return {
-      message: ''
+      message: '',
+      count: 0
+    }
+  },
+
+  methods: {
+    increment(){
+      
     }
   }
 
