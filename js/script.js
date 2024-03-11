@@ -6,8 +6,8 @@ createApp({
 
   data(){
     return {
-      message: 'Edit me!!',
-      count: 0
+      message: 'Edit Me!!!',
+      count: 0,
     }
   },
 

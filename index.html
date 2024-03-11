@@ -12,11 +12,14 @@
   
   <div id="app">
     <div class="container my-5 text-center w-25 d-flex flex-column justify-content-center">
+
       <input type="text" class="form-control border-1 border-black" v-model="message">
       <h1>{{ message }}</h1>
-      <h2>{{ this.count }}</h2>
       <button @click="reverse" class="btn btn-outline-info">Reverse the message</button>
+
+      <h2>{{ this.count }}</h2>
       <button @click="increment" class="btn btn-outline-secondary">Counter={{ this.count }}</button>
+
     </div>
   </div>
 
