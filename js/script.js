@@ -6,7 +6,7 @@ createApp({
 
   data(){
     return {
-      message: '',
+      message: 'Edit me!!',
       count: 0
     }
   },
@@ -14,6 +14,10 @@ createApp({
   methods: {
     increment(){
       this.count++
+    },
+
+    reverse(){
+      this.message = this.message.split('').reverse().join('')
     }
   }
 
